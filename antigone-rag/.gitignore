@@ -1,0 +1,52 @@
+# ── Secrets & API keys ─────────────────────────────
+.env
+*.env
+.env.*
+
+# ── Python ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ────────────────────────────
+venv/
+env/
+.venv/
+.ENV/
+ENV/
+
+# ── FAISS vectorstore (large binary files) ─────────
+vectorstore/
+
+# ── Jupyter ────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS files ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ───────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+
+# ── Logs & temp ────────────────────────────────────
+*.log
+*.tmp
+*.bak
+
+# ── HuggingFace cache (large model weights) ────────
+.cache/
+~/.cache/huggingface/
