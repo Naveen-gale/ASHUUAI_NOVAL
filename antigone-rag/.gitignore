@@ -23,7 +23,7 @@ env/
 ENV/
 
 # ── FAISS vectorstore (large binary files) ─────────
-vectorstore/
+# vectorstore/
 
 # ── Jupyter ────────────────────────────────────────
 .ipynb_checkpoints/

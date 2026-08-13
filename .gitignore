@@ -14,8 +14,8 @@ __pycache__/
 *.pyc
 
 # ── FAISS vectorstore ──────────────────────────────
-vectorstore/
-antigone-rag/vectorstore/
+# vectorstore/
+# antigone-rag/vectorstore/
 
 # ── OS files ───────────────────────────────────────
 .DS_Store
