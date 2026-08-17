@@ -68,7 +68,7 @@ retriever = vectorstore.as_retriever(search_kwargs={"k": 6})
 api_key = os.getenv("GROQ_API_KEY") or os.getenv("GROQ_API")
 
 llm = ChatGroq(
-    model=os.getenv("GROQ_MODEL", "llama-3.1-70b-versatile"),
+    model=os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"),
     groq_api_key=api_key,
     temperature=0.3,
 )
